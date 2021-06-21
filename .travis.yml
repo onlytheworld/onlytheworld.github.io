@@ -4,5 +4,6 @@ rvm: 2.6
 
 before_install:
   - chmod +x script/bootstrap
+  - chmod +x script/cibuild
 install: script/bootstrap
 script: script/cibuild
